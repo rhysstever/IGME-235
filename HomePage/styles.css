@@ -1,0 +1,40 @@
+body
+{
+	background-color: #3066BE;
+}
+header
+{
+	background-color: #B4C5E4;
+	margin: 5px;
+	padding: 10px;
+}
+main
+{
+	background-color: #B4C5E4;
+	margin: 5px;
+	padding: 10px;
+}
+.flex
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	justify-content: flex-start;
+	align-content: center;
+}
+.item
+{
+	width: 33%;
+}
+#image
+{
+	float: center;
+	max-width: 100%;
+	max-height: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#link
+{
+	color: #283044;
+}
