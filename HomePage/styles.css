@@ -8,7 +8,7 @@ header
 	margin: 5px;
 	padding: 10px;
 }
-main
+#main
 {
 	background-color: #B4C5E4;
 	margin: 5px;
@@ -34,7 +34,7 @@ main
 	padding-right: 10px;
 	padding-left: 10px;
 }
-#linkhead
+a
 {
 	color: #283044;
 }
