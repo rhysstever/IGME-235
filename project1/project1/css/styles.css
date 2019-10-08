@@ -1,0 +1,102 @@
+body{
+	background-color: #373F47;
+	padding: 0.5rem 10%;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	position: sticky;
+	top: 0;
+	background-color: #725AC1;
+	padding: 1rem;
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+	color: #FFFFFF;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+nav > a{
+	color: #FFFFFF;
+}
+
+nav > a:hover{
+	color: #373F47;
+}
+
+a:hover{
+	color: #CCCDD3;
+}
+
+h1{
+	text-align: center;
+	margin-top: 0rem;
+}
+
+h2{
+	color: #373F47;
+}
+
+h3{
+	margin: 0.5rem 1rem;
+}
+
+main{
+	min-height: 40rem;
+	background-color: #CCCDD3;
+	padding: 1rem;
+}
+
+section{
+	background-color: #FFFFFF;
+	padding: 1rem;
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	background-color: #725AC1;
+	color: #FFFFFF;
+	padding: 1rem;
+}
+
+.footer-item{
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+	margin: 0rem;
+}
+
+footer > p{
+	margin: 0rem;
+}
+
+.footer-item > p{
+	margin: 0rem;
+}
+
+@media only screen and (max-width: 980px){
+	/* Start cutting the side dark grey in */
+	body{
+		padding: 0.5rem 2%;
+	}
+}
+
+@media only screen and (max-width: 650px){
+	nav{
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 530px){
+	body{
+		padding: 0.5rem 0;
+	}
+}
