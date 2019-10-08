@@ -2,7 +2,7 @@
 
 ## Welcome to Brick Pong!
 Brick Pong is the combination of 2 classic games: Brick Breaker and Pong.
-![Home Image](images/home_ing.png)
+![Home Image](images/home_img.png)
 
 
 # Proposal Page
