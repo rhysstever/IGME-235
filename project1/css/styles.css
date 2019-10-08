@@ -48,8 +48,8 @@ h3{
 	margin: 0.5rem 1rem;
 }
 
-li{
-	margin: 0.5rem;
+.subheader{
+	text-align: center;
 }
 
 main{
@@ -60,81 +60,6 @@ main{
 
 section{
 	background-color: #FFFFFF;
-	padding: 1rem;
-}
-
-#home-sec{
-	text-align: center;
-}
-
-#home-img{
-	width: 100%;
-	height: auto;
-}
-
-.grid{
-	display: grid;
-	grid-template-areas: 
-		"head head head"
-		"genre platform story"
-		"aesthetics gameplay about"
-		"screenshots screenshots screenshots";
-}
-
-#head{
-	grid-area: head;
-	text-align: center;
-	background-color: #FFFFFF;
-	margin: 0.5rem;
-	padding: 1rem;
-}
-
-#genre{
-	grid-area: genre;
-	background-color: #FFFFFF;
-	margin: 0.5rem;
-	padding: 1rem;
-}
-
-#platform{
-	grid-area: platform;
-	background-color: #FFFFFF;
-	margin: 0.5rem;
-	padding: 1rem;
-}
-
-#story{
-	grid-area: story;
-	background-color: #FFFFFF;
-	margin: 0.5rem;
-	padding: 1rem;
-}
-
-#aesthetics{
-	grid-area: aesthetics;
-	background-color: #FFFFFF;
-	margin: 0.5rem;
-	padding: 1rem;
-}
-
-#gameplay{
-	grid-area: gameplay;
-	background-color: #FFFFFF;
-	margin: 0.5rem;
-	padding: 1rem;
-}
-
-#about{
-	grid-area: about;
-	background-color: #FFFFFF;
-	margin: 0.5rem;
-	padding: 1rem;
-}
-
-#screenshots{
-	grid-area: screenshots;
-	background-color: #FFFFFF;
-	margin: 0.5rem;
 	padding: 1rem;
 }
 
@@ -161,90 +86,16 @@ footer > p{
 	margin: 0rem;
 }
 
-.images{
-	display: grid;
-	grid-template-rows: repeat(2, 10rem);
-	grid-auto-columns: repeat(4, 10rem);
-	justify-items: center;
-	align-items: center;
-}
-
-.images img{
-	padding: 2rem;
-}
-
-#image1{
-	grid-row: 1 / span 1;
-	grid-column: 1 / span 1;
-}
-
-#image2{
-	grid-row: 1 / span 1;
-	grid-column: 2 / span 1;
-}
-
-#image3{
-	grid-row: 1 / span 1;
-	grid-column: 3 / span 1;
-}
-
-#image4{
-	grid-row: 1 / span 1;
-	grid-column: 4 / span 1;
-}
-
-#image5{
-	grid-row: 2 / span 1;
-	grid-column: 1 / span 1;
-}
-
-#image6{
-	grid-row: 2 / span 1;
-	grid-column: 2 / span 1;
-}
-
-#image7{
-	grid-row: 2 / span 1;
-	grid-column: 3 / span 1;
-}
-
-#image8{
-	grid-row: 2 / span 1;
-	grid-column: 4 / span 1;
-}
-
-@media only screen and (max-width: 768px){
-	/* Proposal - rearrange grid items to 2s */
+@media only screen and (max-width: 980px){
 	/* Start cutting the side dark grey in */
 	body{
 		padding: 0.5rem 2%;
 	}
-
-	.grid{
-		grid-template-areas: 
-			"head head"
-			"genre platform"
-			"story aesthetics"
-			"gameplay about"
-			"screenshots screenshots";
-	}
 }
 
 @media only screen and (max-width: 650px){
-	/* Proposal - grid items become 1 column */
 	nav{
 		flex-direction: column;
-	}
-	.grid{
-		grid-template-areas: 
-			"head"
-			"genre"
-			"platform"
-			"story"
-			"aesthetics"
-			"gameplay"
-			"about"
-			"screenshots";
 	}
 }
 
