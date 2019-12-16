@@ -9,15 +9,16 @@
  }
 
  section{
-     height: 630px;
+     height: 650px;
  }
 
  section p{
-     color: white;
+    color: white;
+    font-family: 'outrun';
  }
  
  h1{
-     font-family: 'outrun';
+    font-family: 'outrun';
  }
  
  canvas{
