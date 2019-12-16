@@ -3,30 +3,30 @@
      src: url("../fonts/Outrun-future_1.ttf");
  }
  
- html, body{
-     margin: 0rem;
-     padding: 0rem;
- }
+html, body{
+    margin: 0rem;
+    padding: 0rem;
+}
 
- section{
-     height: 650px;
- }
+section{
+    height: 650px;
+}
 
- section h6{
+section h6{
     color: white;
     font-family: 'outrun';
- }
- 
- h1{
+}
+
+h1{
     font-family: 'outrun';
- }
- 
- canvas{
-     position: absolute;
-     left: 0;
-     right: 0;
-     margin-left: auto;
-     margin-right: auto;
- }
- 
- * {padding: 0; margin: 0}
+}
+
+canvas{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+* {padding: 0; margin: 0}
